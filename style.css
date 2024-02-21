@@ -1,0 +1,16 @@
+#about-info{
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.about-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+
+.about-card img {
+    width: 100%;
+}
