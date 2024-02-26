@@ -72,7 +72,7 @@ nav ul li a:hover{
         position: absolute;   
       }
 
-      .card {
+      /* .card {
         box-shadow: 0 4px 8px 0 white;
         max-width: 300px;
          margin: auto;
@@ -80,23 +80,28 @@ nav ul li a:hover{
         font-family: arial;
         background-color: white;
         display: flex;
-      }
-       .products{
+      } */
+
+      .card{
+        padding: 0 100px;
         display: flex;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 19px;
         grid-row-gap: 0px;
-        display:table;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 50px 0;
+      }
+       .products{
+        
       } */
       .products-view{
         height: 50%;
          width: 90%; 
         border-radius: 50px;
+      }
+
+      .products-view img{
+        width: 400px;
+        height: 300px;
       }
       .Products h2{
         color: black;
