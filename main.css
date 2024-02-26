@@ -79,9 +79,10 @@ nav ul li a:hover{
         text-align: center;
         font-family: arial;
         background-color: white;
+        display: flex;
       }
-      .Products{
-        display: grid;
+       .products{
+        display: flex;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 19px;
@@ -91,7 +92,7 @@ nav ul li a:hover{
   align-items: center;
   flex-direction: column;
   margin: 50px 0;
-      }
+      } */
       .products-view{
         height: 50%;
          width: 90%; 
